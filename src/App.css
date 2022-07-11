@@ -9,6 +9,7 @@
 }
 .categories{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .products{
@@ -54,4 +55,10 @@
 }
 .cartItem{
   text-align: center;
+}
+@media all and (max-width:500px){
+
+.filterItem{
+  margin:3px;
+}
 }
